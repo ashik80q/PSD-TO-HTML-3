@@ -1,0 +1,38 @@
+/** Temple layout **/
+@media only screen and (min-width:200px) and (max-width: 991px){
+    .content{width: 98%;}
+    .left_welcome {
+        width: 96%;
+       
+    }
+    .right_welcome {
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .right_welcome img{
+        width: 100%;
+        height: auto;
+    }
+    section.welcome_area,
+    .service_area {
+       
+        padding: 20px 0;
+    }
+    h2.title {
+        font-size: 25px;
+    }
+    p.sub_title {
+        font-size: 15px;
+    }
+    .child_service {
+        padding: 130px 60px 80px 84px;
+    }
+}
+
+/** Mobile layout **/
+@media only screen and (min-width:768px) and (max-width:991px){
+    .top_header_area .social_area{width: 100%;}
+    .top_header_area .social_area ul{ text-align: center;}
+    .top_header_area .social_area { display: none;}
+}

@@ -25,7 +25,15 @@ a{
    width: 1170px;
    margin: 0 auto;
 }
-
+#scrollUp{
+   background: url(../img/top.png) no-repeat;
+    height: 38px; 
+    width: 38px; 
+    bottom: 5px; 
+    right: 5px;
+    display: inline-block;
+    text-indent: -999999px;
+}
 /*======== Top header area =======*/
 section.top_header_area {
     background: #A88C95;
@@ -322,3 +330,30 @@ p.sub_title {
 
 }
 
+/*=== footer section ===*/
+footer.footer_area {
+    background: #fff;
+    padding: 30px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.inner_footer.content {
+    overflow: hidden;
+}
+.footer_logo {
+    width: 420px;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+.copyright_area {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.copyright_area p{
+    color: #6a3144;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
